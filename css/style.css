@@ -1529,7 +1529,8 @@ blockquote p {
   height: 55vh;
 }
 
-#services-intro .intro-overlay {
+#services-intro .intro-overlay,
+#health-intro .intro-overlay {
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   top: 0;
@@ -1538,7 +1539,8 @@ blockquote p {
   height: 55vh;
 }
 
-#services-intro .inner-content {
+#services-intro .inner-content,
+#health-intro .inner-content {
   padding-top: 180px;
 }
 
@@ -1648,4 +1650,17 @@ blockquote p {
 #portfolio .portfolio-item .portfolio-wrap .card .readmore:hover {
   color: #0b6bd3;
   border-bottom: #0b6bd3 solid 2px;
+}
+
+/* 
+ ** Lead Photos
+*/
+#health-intro {
+  width: 100%;
+  position: relative;
+  background: url("../img/intro-services.jpg") center bottom no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 200px 0 120px 0;
+  height: 55vh;
 }
