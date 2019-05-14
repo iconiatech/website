@@ -596,12 +596,14 @@ h6 {
 /* Services Section
 --------------------------------*/
 
-#services {
+#services,
+#portfolio {
   padding: 60px 0 40px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
-#services .box {
+#services .box,
+#portfolio .box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -612,39 +614,46 @@ h6 {
   transition: all 0.3s ease-in-out;
 }
 
-#services .box:hover {
+#services .box:hover,
+#portfolio .box:hover {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
 }
 
-#services .icon {
+#services .icon,
+#portfolio .icon {
   position: absolute;
   left: -10px;
   top: calc(50% - 32px);
 }
 
-#services .icon i {
+#services .icon i,
+#portfolio .icon i {
   font-size: 64px;
   line-height: 1;
   transition: 0.5s;
 }
 
-#services .title {
+#services .title,
+#portfolio .title {
   margin-left: 40px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-#services .title a {
+#services .title a,
+#portfolio .title a {
   color: #111;
 }
 
-#services .box:hover .title a {
+#services .box:hover .title a,
+#portfolio .box:hover .title a {
   color: #007bff;
 }
 
-#services .description {
+#services .description,
+#portfolio .description {
   font-size: 14px;
   margin-left: 40px;
   line-height: 24px;
