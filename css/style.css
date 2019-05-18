@@ -1,5 +1,7 @@
 :root {
 	--primary-color: #007bff;
+	--secondary-color: #eb9772;
+	--grey-color: #e4e9f7;
 	--dark-color: #00030c;
 }
 
@@ -494,8 +496,6 @@ h6 {
 	background: #e9e9e9;
 }
 
-.section-bg 
-
 /* About Us Section
 --------------------------------*/
 
@@ -818,9 +818,13 @@ h6 {
 	overflow: hidden;
 }
 
+#team .member p {
+	height: 200px;
+}
+
 #team .member .member-info {
-	background: rgba(0, 62, 128, 0.7);
-	opacity: 1;
+	background: /*var(--primary-color)*/#008adc;
+	opacity: .8;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -861,14 +865,20 @@ h6 {
 	font-weight: 700;
 	margin-bottom: 2px;
 	font-size: 18px;
-	color: #000;
+	color: #fff;
 }
 
 #team .member span {
 	font-style: italic;
 	display: block;
 	font-size: 13px;
-	color: #000;
+	color: #fff;
+}
+
+#team .member:hover h4, 
+#team .member:hover span,
+#team .member:hover .social a {
+	color: #00FF96;
 }
 
 #team .member .social {
@@ -877,11 +887,11 @@ h6 {
 
 #team .member .social a {
 	transition: none;
-	color: #000;
+	color: #fff;
 }
 
 #team .member .social a:hover {
-	color: #007bff;
+	color: var(--secondary-color);
 }
 
 #team .member .social i {
