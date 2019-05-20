@@ -646,9 +646,9 @@ h6 {
 #services .title,
 #portfolio .title {
 	margin-left: 40px;
-	font-weight: 700;
-	margin-bottom: 15px;
-	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 8px;
+	font-size: 24px;
 }
 
 #services .title a,
@@ -1649,11 +1649,6 @@ blockquote p {
 	margin: 0;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .card {
-	/* padding: 10px 0;
-  color: #eb9772; */
-}
-
 #portfolio .portfolio-item .portfolio-wrap .card i {
 	padding: 10px 0;
 	color: #007bff;
@@ -1680,7 +1675,7 @@ blockquote p {
 /* 
  ** Lead Photoss
 */
-#health-intro {
+#departments-intro {
 	width: 100%;
 	position: relative;
 	background: url("../img/health_care.jpg") center bottom no-repeat;
@@ -1689,3 +1684,28 @@ blockquote p {
 	padding: 200px 0 120px 0;
 	height: 55vh;
 }
+
+/* 
+ * Services Cards
+*/
+.card-img-top {
+	height: 30vh;
+}
+
+.services-card-title {
+	font-weight: bold;
+}
+
+.services-card-text {
+	line-height: 1.6;
+}
+
+hr.hr__neat {
+	border: 2px solid var(--primary-color);
+	margin-left: 40px;
+}
+
+hr.hr__services {
+	border: 2px solid var(--primary-color);
+}
+
